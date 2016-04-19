@@ -1,0 +1,35 @@
+angular.module('app', ['ionic'])
+
+.controller('Page1Ctrl', function($scope) {
+ $scope.myTitle = 'Page 1 - Summary';
+})
+
+.controller('Page2Ctrl', function($scope) {
+ $scope.myTitle = 'Page 2 - Scores';
+})
+
+.controller('Page3Ctrl', function($scope) {
+ $scope.myTitle = 'Page 3 - Setup';
+})
+
+.config(function($stateProvider, $urlRouterProvider) {
+ $stateProvider
+  .state('page1', {
+   url: "/page1",
+   templateUrl: "templates/page1.html",
+   controller: 'Page1Ctrl'
+  })
+  .state('page2', {
+   url: "/page2",
+   templateUrl: "templates/page2.html",
+   controller: 'Page2Ctrl'
+  })
+  .state('page3', {
+   url: "/page3",
+   templateUrl: "templates/page3.html",
+   controller: 'Page3Ctrl'
+  })
+  
+// if none of the above states are matched, use this as the fallback:
+ $urlRouterProvider.otherwise('page1');
+});
