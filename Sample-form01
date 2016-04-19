@@ -2,6 +2,12 @@
 <html>
 <body>
 
+<p id="p1">My First HTML App</p>
+
+<script>
+document.getElementById("p1").innerHTML = "Golf Scorecard!";
+</script>
+
 <form id="setM1" action="form_action.asp">
   Match: <input type="text" name="match" value="M01-Mar13-2016"><br>
   # Teams: <input type="text" name="#teams" value="6"><br>
