@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form id="setM1" action="form_action.asp">
+  Match: <input type="text" name="match" value="M01-Mar13-2016"><br>
+  # Teams: <input type="text" name="#teams" value="6"><br>
+  # Players: <input type="text" name="#plyrs" value="2"><br>
+  Entry Fee: <input type="text" name="jPfee" value="$10"><br>
+  Prize Index: <input type="text" name="prizeIndex" value="bogey"><br>
+  Prize String: <input type="text" name="prizeString" value="150803020100"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>Click "Try it" to display the value of each element in the form.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.forms["setM1"];
+    var text = "";
+    var i;
+    for (i = 0; i < x.length ;i++) {
+        text += x.elements[i].value + "<br>";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
