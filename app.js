@@ -1,3 +1,33 @@
+//  Encrypt-Decrypt ?? 
+function encrypt(input, output) {
+	let scr = "";
+	for (let i = 0; i < input.length; i++) {
+		scr += input.charCodeAt(i).toString(2) + "2";
+	}
+	scr = scr
+			.replace(/0/g, inv0)
+			.replace(/1/g, inv1)
+			.replace(/2/g, inv2);
+	output = output.charAt(0) + scr + output.substring(1);
+	clipboardy.writeSync(output);
+	console.log("input: " + input);
+	console.log("output: " + output);
+	console.log("length: " + output.length);
+	console.log("Saved to clipboard!");
+}
+function decrypt(input) {
+	let scr = input.substring(1, input.lastIndexOf(inv2));
+	scr = scr.split(inv2).join("2").split(inv0).join("0").split(inv1).join("1");
+	scr = scr.split("2");
+	let output = "";
+	for (let i = 0; i < scr.length; i++) {
+		output += String.fromCharCode(parseInt(scr[i], 2));
+	}
+	console.log("input: " + input);
+	console.log("output: " + output);
+}
+
+
 angular.module('app', ['ionic'])
 
 .controller('Page1Ctrl', function($scope) {
