@@ -1,0 +1,161 @@
+[
+  {
+    "categoryTitle": "Passion for Results",
+    "subCatCriteria": [
+      {
+        "subCatTitle": "Achievement Oriented",
+        "subCatNotes": "Description for Achievement Oriented goes here ...  ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      },
+      {
+        "subCatTitle": "Leading for Equitable Outcomes",
+        "subCatNotes": "Description for  goes here ...  ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      },
+      {
+        "subCatTitle": "Visionary Leadership",
+        "subCatNotes": "Description for Visionary Leadership goes here ...  ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      },
+      {
+        "subCatTitle": "subCatTitle 4",
+        "subCatNotes": "Description for subCatTitle 4 goes here ...  ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      },
+      {
+        "subCatTitle": "subCatTitle 5",
+        "subCatNotes": "Description for subCatTitle 5 goes here ...  ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      }
+    ]
+  },
+  {
+    "categoryTitle": "Commitment to Growth",
+    "subCatCriteria": [
+      {
+        "subCatTitle": "Capacity Development",
+        "subCatNotes": "Description for  goes here ...  ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      },
+      {
+        "subCatTitle": "Values-Driven, Data Informed",
+        "subCatNotes": "Description for  goes here ...  ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      },
+      {
+        "subCatTitle": " ",
+        "subCatNotes": "Description for  goes here ...  ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      },
+      {
+        "subCatTitle": " ",
+        "subCatNotes": "Description for  goes here ...  ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      },
+      {
+        "subCatTitle": " ",
+        "subCatNotes": "Description for  goes here ...  ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      }
+    ]
+  },
+  {
+    "categoryTitle": "Heart for Others",
+    "subCatCriteria": [
+      {
+        "subCatTitle": "Recognition of Others",
+        "subCatNotes": "Description for  goes here ...  ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      },
+      {
+        "subCatTitle": "Collaborative Relationships",
+        "subCatNotes": " ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      },
+      {
+        "subCatTitle": "Effective Communication",
+        "subCatNotes": " ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      },
+      {
+        "subCatTitle": " ",
+        "subCatNotes": " ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      },
+      {
+        "subCatTitle": " ",
+        "subCatNotes": " ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      },
+      {
+        "subCatTitle": " ",
+        "subCatNotes": " ",
+        "districtMin": 1.0,
+        "districtMax": 5.0,
+        "districtAvg": 4.0,
+        "staffScore": 4.25,
+        "staffScoreNotes": " "
+      }
+    ]
+  }
+]
